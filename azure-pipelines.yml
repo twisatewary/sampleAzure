@@ -14,9 +14,9 @@ steps:
 
 - script: |
     npm install
+    npm i protractor
+    npm install -g protractor
+    webdriver-manager update
+    protractor --version
+    npm test
 
-- task: ShellScript@2
-  displayName: 'runTests.sh'
-  inputs:
-    command: runTests.sh
-    customCommand: 'runTests.sh'
