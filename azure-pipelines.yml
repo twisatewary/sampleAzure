@@ -16,6 +16,9 @@ steps:
     npm install
     npm run build
 
- -Utility: Batch Script 
-        Path: runTests.bat  
+- task: @batch 
+  displayName: 'runTests.bat'
+  inputs:
+    command: runTests.bat
+    customCommand: 'runTests.bat'
    
