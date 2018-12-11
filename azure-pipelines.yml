@@ -18,5 +18,5 @@ steps:
     task: Batch@1 
   displayName: './runTests.sh'
   inputs:
-    command: ./runTests.sh
+    command: runTests.sh
     customCommand: './runTests.sh'
