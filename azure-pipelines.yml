@@ -17,11 +17,7 @@ steps:
     
 
 
-    powershell:  # inline script
+   - powershell:  # inline script
   workingDirectory:  test.ps1
-  displayName: test.ps1
-  failOnStderr:  #
-  errorActionPreference:  #
-  ignoreLASTEXITCODE:  #
-  env:  # mapping of environment variables to add
-    
+  displayName:  test.ps1
+ 
