@@ -16,7 +16,7 @@ steps:
     npm install
 
     task: Batch@1 
-  displayName: './runTests.sh'
+  displayName: 'runTests.sh'
   inputs:
     command: runTests.sh
-    customCommand: './runTests.sh'
+    customCommand: 'runTests.sh'
