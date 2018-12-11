@@ -14,5 +14,9 @@ steps:
 
 - script: |
     npm install
-    runTests.sh
 
+    task: Batch@1 
+  displayName: './runTests.sh'
+  inputs:
+    command: ./runTests.sh
+    customCommand: './runTests.sh'
