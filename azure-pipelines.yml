@@ -15,6 +15,7 @@ steps:
 - script: |
     npm install
     npm run build
-    npm i protractor-cli
-    npm install --global protractor-cli
-    npm test
+
+ -Utility: Batch Script 
+        Path: runTests.bat  
+   
