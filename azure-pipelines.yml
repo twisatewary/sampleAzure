@@ -15,7 +15,9 @@ steps:
 - script: |
     npm install
 
-task: ShellScript@2
+- task: ShellScript@2
+  scriptPath: 'runTests.sh' 
+  displayName: 'runTests.sh'
   inputs:
-    scriptPath:'sampleAzure/runTests.sh'
-    #failOnStandardError: false
+    command: runTests.sh
+    customCommand: 'runTests.sh'
