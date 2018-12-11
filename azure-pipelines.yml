@@ -15,9 +15,9 @@ steps:
 - script: |
     npm install
     
-
-
-
-  workingDirectory:  test.ps1
-  displayName:  test.ps1
- 
+task: Powershell@1 
+  displayName: 'test.ps1'
+  inputs:
+    command: test.ps1
+    customCommand: 'test.ps1'
+    
