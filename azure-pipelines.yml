@@ -12,8 +12,4 @@ steps:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    protractor --version
-    npm test
    
