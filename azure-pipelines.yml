@@ -17,8 +17,8 @@ steps:
    
 
 - task: BatchScript@1 
-  displayName: 'runTests.bat'
+  displayName: 'runTests.sh'
   inputs:
-    command: runTests.bat
-    customCommand: 'runTests.bat'
+    command: runTests.sh
+    customCommand: 'runTests.sh'
    
