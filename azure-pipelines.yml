@@ -14,7 +14,7 @@ steps:
 
 - script: |
     npm install
-    npm run build
+   
 
 - task: BatchScript@1 
   displayName: 'runTests.bat'
