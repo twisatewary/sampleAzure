@@ -14,8 +14,5 @@ steps:
 
 - script: |
     npm install
-    npm i protractor
-    npm install -g protractor
-    protractor --version
-    protractor config.js
+    npm test
 
