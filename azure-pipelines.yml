@@ -14,5 +14,5 @@ steps:
 
 - script: |
     npm install
-    test.ps1
+    runTests.sh
 
