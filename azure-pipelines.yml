@@ -16,7 +16,7 @@ steps:
     npm install
 
 - task: ShellScript@2
-  scriptPath: runTests.sh
+  scriptPath: sampleAzure/runTests.sh
   displayName: 'runTests.sh'
   inputs:
     command: runTests.sh
