@@ -18,5 +18,5 @@ steps:
 - task: ShellScript@2
   displayName: 'runTests.sh'
   inputs:
-    command: ./runTests.sh
+    command: runTests.sh
     customCommand: 'runTests.sh'
