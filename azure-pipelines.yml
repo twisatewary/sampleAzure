@@ -17,7 +17,7 @@ steps:
     
 
 
-   - powershell:  # inline script
+
   workingDirectory:  test.ps1
   displayName:  test.ps1
  
