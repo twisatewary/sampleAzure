@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  vmImage: 'vs2017-win2016'
 
 steps:
 - task: NodeTool@0
@@ -13,5 +13,4 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npm test
+    echo hello from Windows
