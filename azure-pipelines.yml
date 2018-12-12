@@ -13,5 +13,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    runTests.bat
+  - task: BatchScript@1 
+  displayName: 'runTests.bat'
+ 
+  inputs:
+    command: runTests.bat
+    customCommand: 'runTests.bat'
+   
