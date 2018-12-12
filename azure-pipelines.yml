@@ -11,11 +11,10 @@ steps:
   inputs:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
-
-- script:|
+- script: 
     npm install
     npm install protractor
-    npm install protractor -g
+    npm install protracot -g
     protractor --version
 
 - task: BatchScript@1
