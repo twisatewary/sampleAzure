@@ -12,11 +12,10 @@ steps:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
 
-- script: |
-  - task: BatchScript@1 
-  displayName: 'runTests.bat'
- 
+
+ - task: BatchScript@1
   inputs:
+    filename: runTests.bat
     command: runTests.bat
     customCommand: 'runTests.bat'
    
