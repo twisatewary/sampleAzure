@@ -12,9 +12,10 @@ steps:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
 
-- scripts:
-npm install
-npm i protractor
-npm install -g protractor
-protractor --version
-npm test
+- script: |
+    npm install
+    npm test 
+    npm i protractor
+    npm install -g protractor
+    protractor --version
+    npm test
