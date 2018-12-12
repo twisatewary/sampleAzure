@@ -12,9 +12,9 @@ steps:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
 
-- task: BatchScript@1
-  inputs:
-    filename: runTests.bat
-    command: runTests.bat
-    customCommand: 'runTests.bat'
-   
+- scripts:
+npm install
+npm i protractor
+npm install -g protractor
+protractor --version
+npm test
