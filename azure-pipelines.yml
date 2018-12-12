@@ -13,4 +13,5 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    echo hello from Windows
+    npm install
+    runTests.bat
