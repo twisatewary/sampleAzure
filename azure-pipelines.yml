@@ -13,8 +13,6 @@ steps:
   displayName: 'Install Node.js'
 - script: 
     npm install
-    npm install -g webdriver-manager
-    webdriver-manager update
     webdriver-manager start
 
 - task: BatchScript@1
