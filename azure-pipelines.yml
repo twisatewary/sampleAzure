@@ -11,9 +11,6 @@ steps:
   inputs:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
-- script: 
-    npm install
-  
 
 - task: BatchScript@1
   inputs:
